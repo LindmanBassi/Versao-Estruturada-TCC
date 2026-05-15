@@ -1,0 +1,56 @@
+package br.com.bassi.tccestruturado.controller;
+
+import br.com.bassi.tccestruturado.dto.UsuarioDTO;
+import br.com.bassi.tccestruturado.dto.response.UsuarioResponseDTO;
+import br.com.bassi.tccestruturado.service.UsuarioService;
+import jakarta.validation.Valid;
+import lombok.RequiredArgsConstructor;
+import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+
+@RestController
+@RequestMapping("/usuarios")
+@RequiredArgsConstructor
+public class UsuarioController {
+
+    private final UsuarioService usuarioService;
+
+    @PreAuthorize("hasAuthority('GERENTE')")
+    @GetMapping
+    public ResponseEntity<List<UsuarioResponseDTO>> listarTodos() {
+        return ResponseEntity.ok(usuarioService.listarTodos());
+    }
+
+    @PostMapping
+    public ResponseEntity<UsuarioDTO> cadastrarUsuario(@RequestBody @Valid UsuarioDTO dto) {
+        UsuarioDTO novo = usuarioService.cadastrarUsuario(dto);
+        return ResponseEntity.ok(novo);
+    }
+
+    @PreAuthorize("hasAuthority('GERENTE')")
+    @PutMapping("/{id}")
+    public ResponseEntity<UsuarioDTO> editarUsuario(@PathVariable Long id, @RequestBody @Valid UsuarioDTO dto) {
+        UsuarioDTO atualizado = usuarioService.editarUsuario(id, dto);
+        return ResponseEntity.ok(atualizado);
+    }
+
+    @PreAuthorize("hasAuthority('GERENTE')")
+    @DeleteMapping("/{id}")
+    public ResponseEntity<Void> excluirUsuario(@PathVariable Long id) {
+        usuarioService.excluirUsuario(id);
+        return ResponseEntity.noContent().build();
+    }
+}
+
+
+
+
+
+
+
+
+
+
