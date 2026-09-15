@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 https://pmd.github.io/schema/report_2_0_0.xsd" version="7.17.0" timestamp="2026-08-14T15:10:01.717">
+<file name="C:\Users\hnrqb\OneDrive\Desktop\Tcc-Estruturado\src\main\java\br\com\bassi\tccestruturado\TccEstruturado.java">
+<violation beginline="11" endline="11" begincolumn="8" endcolumn="13" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado" class="TccEstruturado" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The class 'TccEstruturado' has a total cyclomatic complexity of 1 (highest 1).
+</violation>
+<violation beginline="13" endline="13" begincolumn="21" endcolumn="25" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado" class="TccEstruturado" method="main" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'main(String[])' has a cyclomatic complexity of 1.
+</violation>
+</file>
+<file name="C:\Users\hnrqb\OneDrive\Desktop\Tcc-Estruturado\src\main\java\br\com\bassi\tccestruturado\client\CepClient.java">
+<violation beginline="12" endline="12" begincolumn="23" endcolumn="34" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.client" class="CepClient" method="getEndereco" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'getEndereco(String)' has a cyclomatic complexity of 1.
+</violation>
+</file>
+<file name="C:\Users\hnrqb\OneDrive\Desktop\Tcc-Estruturado\src\main\java\br\com\bassi\tccestruturado\config\CorsConfig.java">
+<violation beginline="11" endline="11" begincolumn="8" endcolumn="13" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.config" class="CorsConfig" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The class 'CorsConfig' has a total cyclomatic complexity of 1 (highest 1).
+</violation>
+<violation beginline="14" endline="14" begincolumn="27" endcolumn="43" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.config" class="CorsConfig" method="webMvcConfigurer" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'webMvcConfigurer()' has a cyclomatic complexity of 1.
+</violation>
+<violation beginline="15" endline="28" begincolumn="35" endcolumn="6" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.config" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The class '' has a total cyclomatic complexity of 1 (highest 1).
+</violation>
+<violation beginline="17" endline="17" begincolumn="19" endcolumn="34" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.config" method="addCorsMappings" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'addCorsMappings(CorsRegistry)' has a cyclomatic complexity of 1.
+</violation>
+</file>
+<file name="C:\Users\hnrqb\OneDrive\Desktop\Tcc-Estruturado\src\main\java\br\com\bassi\tccestruturado\config\ProxyConfig.java">
+<violation beginline="7" endline="7" begincolumn="8" endcolumn="13" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.config" class="ProxyConfig" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The class 'ProxyConfig' has a total cyclomatic complexity of 1 (highest 1).
+</violation>
+<violation beginline="9" endline="9" begincolumn="27" endcolumn="48" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.config" class="ProxyConfig" method="forwardedHeaderFilter" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'forwardedHeaderFilter()' has a cyclomatic complexity of 1.
+</violation>
+</file>
+<file name="C:\Users\hnrqb\OneDrive\Desktop\Tcc-Estruturado\src\main\java\br\com\bassi\tccestruturado\controller\AuthController.java">
+<violation beginline="16" endline="16" begincolumn="8" endcolumn="13" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.controller" class="AuthController" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The class 'AuthController' has a total cyclomatic complexity of 2 (highest 1).
+</violation>
+<violation beginline="21" endline="21" begincolumn="42" endcolumn="47" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.controller" class="AuthController" method="login" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'login(LoginRequest, HttpServletResponse)' has a cyclomatic complexity of 1.
+</violation>
+<violation beginline="37" endline="37" begincolumn="33" endcolumn="39" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.controller" class="AuthController" method="logout" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'logout(HttpServletResponse)' has a cyclomatic complexity of 1.
+</violation>
+</file>
+<file name="C:\Users\hnrqb\OneDrive\Desktop\Tcc-Estruturado\src\main\java\br\com\bassi\tccestruturado\controller\EventoController.java">
+<violation beginline="21" endline="21" begincolumn="8" endcolumn="13" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.controller" class="EventoController" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The class 'EventoController' has a total cyclomatic complexity of 5 (highest 1).
+</violation>
+<violation beginline="27" endline="27" begincolumn="38" endcolumn="49" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.controller" class="EventoController" method="criarEvento" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'criarEvento(EventoDTO)' has a cyclomatic complexity of 1.
+</violation>
+<violation beginline="35" endline="35" begincolumn="52" endcolumn="65" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.controller" class="EventoController" method="listarEventos" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'listarEventos()' has a cyclomatic complexity of 1.
+</violation>
+<violation beginline="40" endline="40" begincolumn="46" endcolumn="58" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.controller" class="EventoController" method="buscarEvento" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'buscarEvento(Long)' has a cyclomatic complexity of 1.
+</violation>
+<violation beginline="48" endline="48" begincolumn="33" endcolumn="46" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.controller" class="EventoController" method="deletarEvento" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'deletarEvento(Long)' has a cyclomatic complexity of 1.
+</violation>
+<violation beginline="55" endline="55" begincolumn="38" endcolumn="50" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.controller" class="EventoController" method="editarEvento" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'editarEvento(Long, EventoDTO)' has a cyclomatic complexity of 1.
+</violation>
+</file>
+<file name="C:\Users\hnrqb\OneDrive\Desktop\Tcc-Estruturado\src\main\java\br\com\bassi\tccestruturado\controller\FuncionarioController.java">
+<violation beginline="18" endline="18" begincolumn="8" endcolumn="13" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.controller" class="FuncionarioController" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The class 'FuncionarioController' has a total cyclomatic complexity of 5 (highest 1).
+</violation>
+<violation beginline="24" endline="24" begincolumn="57" endcolumn="68" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.controller" class="FuncionarioController" method="listarTodos" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'listarTodos()' has a cyclomatic complexity of 1.
+</violation>
+<violation beginline="30" endline="30" begincolumn="57" endcolumn="71" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.controller" class="FuncionarioController" method="listarPorCargo" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'listarPorCargo(EnumCargos)' has a cyclomatic complexity of 1.
+</violation>
+<violation beginline="36" endline="36" begincolumn="43" endcolumn="63" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.controller" class="FuncionarioController" method="cadastrarFuncionario" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'cadastrarFuncionario(FuncionarioDTO)' has a cyclomatic complexity of 1.
+</violation>
+<violation beginline="43" endline="43" begincolumn="43" endcolumn="60" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.controller" class="FuncionarioController" method="editarFuncionario" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'editarFuncionario(Long, FuncionarioDTO)' has a cyclomatic complexity of 1.
+</violation>
+<violation beginline="50" endline="50" begincolumn="33" endcolumn="51" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.controller" class="FuncionarioController" method="excluirFuncionario" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'excluirFuncionario(Long)' has a cyclomatic complexity of 1.
+</violation>
+</file>
+<file name="C:\Users\hnrqb\OneDrive\Desktop\Tcc-Estruturado\src\main\java\br\com\bassi\tccestruturado\controller\LocalController.java">
+<violation beginline="18" endline="18" begincolumn="8" endcolumn="13" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.controller" class="LocalController" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The class 'LocalController' has a total cyclomatic complexity of 5 (highest 1).
+</violation>
+<violation beginline="24" endline="24" begincolumn="37" endcolumn="47" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.controller" class="LocalController" method="criarLocal" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'criarLocal(LocalDTO)' has a cyclomatic complexity of 1.
+</violation>
+<violation beginline="30" endline="30" begincolumn="51" endcolumn="63" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.controller" class="LocalController" method="listarLocais" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'listarLocais()' has a cyclomatic complexity of 1.
+</violation>
+<violation beginline="35" endline="35" begincolumn="45" endcolumn="56" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.controller" class="LocalController" method="buscarLocal" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'buscarLocal(Long)' has a cyclomatic complexity of 1.
+</violation>
+<violation beginline="42" endline="42" begincolumn="33" endcolumn="45" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.controller" class="LocalController" method="deletarLocal" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'deletarLocal(Long)' has a cyclomatic complexity of 1.
+</violation>
+<violation beginline="48" endline="48" begincolumn="37" endcolumn="48" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.controller" class="LocalController" method="editarLocal" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'editarLocal(Long, LocalDTO)' has a cyclomatic complexity of 1.
+</violation>
+</file>
+<file name="C:\Users\hnrqb\OneDrive\Desktop\Tcc-Estruturado\src\main\java\br\com\bassi\tccestruturado\controller\ParticipacaoEventoController.java">
+<violation beginline="16" endline="16" begincolumn="8" endcolumn="13" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.controller" class="ParticipacaoEventoController" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The class 'ParticipacaoEventoController' has a total cyclomatic complexity of 3 (highest 1).
+</violation>
+<violation beginline="21" endline="21" begincolumn="33" endcolumn="51" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.controller" class="ParticipacaoEventoController" method="participarDoEvento" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'participarDoEvento(ParticipacaoEventoDTO)' has a cyclomatic complexity of 1.
+</violation>
+<violation beginline="28" endline="28" begincolumn="49" endcolumn="71" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.controller" class="ParticipacaoEventoController" method="listarUsuariosDoEvento" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'listarUsuariosDoEvento(Long)' has a cyclomatic complexity of 1.
+</violation>
+<violation beginline="34" endline="34" begincolumn="41" endcolumn="69" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.controller" class="ParticipacaoEventoController" method="listarEventosDoUsuarioLogado" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'listarEventosDoUsuarioLogado()' has a cyclomatic complexity of 1.
+</violation>
+</file>
+<file name="C:\Users\hnrqb\OneDrive\Desktop\Tcc-Estruturado\src\main\java\br\com\bassi\tccestruturado\controller\UsuarioController.java">
+<violation beginline="17" endline="17" begincolumn="8" endcolumn="13" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.controller" class="UsuarioController" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The class 'UsuarioController' has a total cyclomatic complexity of 4 (highest 1).
+</violation>
+<violation beginline="23" endline="23" begincolumn="53" endcolumn="64" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.controller" class="UsuarioController" method="listarTodos" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'listarTodos()' has a cyclomatic complexity of 1.
+</violation>
+<violation beginline="28" endline="28" begincolumn="39" endcolumn="55" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.controller" class="UsuarioController" method="cadastrarUsuario" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'cadastrarUsuario(UsuarioDTO)' has a cyclomatic complexity of 1.
+</violation>
+<violation beginline="35" endline="35" begincolumn="39" endcolumn="52" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.controller" class="UsuarioController" method="editarUsuario" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'editarUsuario(Long, UsuarioDTO)' has a cyclomatic complexity of 1.
+</violation>
+<violation beginline="42" endline="42" begincolumn="33" endcolumn="47" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.controller" class="UsuarioController" method="excluirUsuario" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'excluirUsuario(Long)' has a cyclomatic complexity of 1.
+</violation>
+</file>
+<file name="C:\Users\hnrqb\OneDrive\Desktop\Tcc-Estruturado\src\main\java\br\com\bassi\tccestruturado\exceptions\CpfJaCadastradoException.java">
+<violation beginline="3" endline="3" begincolumn="8" endcolumn="13" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.exceptions" class="CpfJaCadastradoException" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The class 'CpfJaCadastradoException' has a total cyclomatic complexity of 1 (highest 1).
+</violation>
+<violation beginline="4" endline="4" begincolumn="12" endcolumn="36" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.exceptions" class="CpfJaCadastradoException" method="CpfJaCadastradoException" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The constructor 'CpfJaCadastradoException(String)' has a cyclomatic complexity of 1.
+</violation>
+</file>
+<file name="C:\Users\hnrqb\OneDrive\Desktop\Tcc-Estruturado\src\main\java\br\com\bassi\tccestruturado\exceptions\CredenciaisInvalidasException.java">
+<violation beginline="3" endline="3" begincolumn="8" endcolumn="13" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.exceptions" class="CredenciaisInvalidasException" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The class 'CredenciaisInvalidasException' has a total cyclomatic complexity of 1 (highest 1).
+</violation>
+<violation beginline="4" endline="4" begincolumn="10" endcolumn="39" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.exceptions" class="CredenciaisInvalidasException" method="CredenciaisInvalidasException" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The constructor 'CredenciaisInvalidasException(String)' has a cyclomatic complexity of 1.
+</violation>
+</file>
+<file name="C:\Users\hnrqb\OneDrive\Desktop\Tcc-Estruturado\src\main\java\br\com\bassi\tccestruturado\exceptions\EmailJaCadastradoException.java">
+<violation beginline="3" endline="3" begincolumn="8" endcolumn="13" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.exceptions" class="EmailJaCadastradoException" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The class 'EmailJaCadastradoException' has a total cyclomatic complexity of 1 (highest 1).
+</violation>
+<violation beginline="4" endline="4" begincolumn="12" endcolumn="38" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.exceptions" class="EmailJaCadastradoException" method="EmailJaCadastradoException" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The constructor 'EmailJaCadastradoException(String)' has a cyclomatic complexity of 1.
+</violation>
+</file>
+<file name="C:\Users\hnrqb\OneDrive\Desktop\Tcc-Estruturado\src\main\java\br\com\bassi\tccestruturado\exceptions\EntidadeNaoEncontradaException.java">
+<violation beginline="3" endline="3" begincolumn="12" endcolumn="17" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.exceptions" class="EntidadeNaoEncontradaException" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The class 'EntidadeNaoEncontradaException' has a total cyclomatic complexity of 1 (highest 1).
+</violation>
+<violation beginline="4" endline="4" begincolumn="16" endcolumn="46" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.exceptions" class="EntidadeNaoEncontradaException" method="EntidadeNaoEncontradaException" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The constructor 'EntidadeNaoEncontradaException(String)' has a cyclomatic complexity of 1.
+</violation>
+</file>
+<file name="C:\Users\hnrqb\OneDrive\Desktop\Tcc-Estruturado\src\main\java\br\com\bassi\tccestruturado\exceptions\GlobalExceptionHandler.java">
+<violation beginline="15" endline="15" begincolumn="8" endcolumn="13" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.exceptions" class="GlobalExceptionHandler" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The class 'GlobalExceptionHandler' has a total cyclomatic complexity of 8 (highest 2).
+</violation>
+<violation beginline="18" endline="18" begincolumn="50" endcolumn="65" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.exceptions" class="GlobalExceptionHandler" method="handleValidacao" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'handleValidacao(MethodArgumentNotValidException)' has a cyclomatic complexity of 2.
+</violation>
+<violation beginline="34" endline="34" begincolumn="41" endcolumn="64" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.exceptions" class="GlobalExceptionHandler" method="handleEmailJaCadastrado" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'handleEmailJaCadastrado(EmailJaCadastradoException)' has a cyclomatic complexity of 1.
+</violation>
+<violation beginline="41" endline="41" begincolumn="41" endcolumn="64" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.exceptions" class="GlobalExceptionHandler" method="handleEmailJaCadastrado" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'handleEmailJaCadastrado(TituloJaCadastradoException)' has a cyclomatic complexity of 1.
+</violation>
+<violation beginline="48" endline="48" begincolumn="41" endcolumn="62" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.exceptions" class="GlobalExceptionHandler" method="handleCpfJaCadastrado" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'handleCpfJaCadastrado(CpfJaCadastradoException)' has a cyclomatic complexity of 1.
+</violation>
+<violation beginline="55" endline="55" begincolumn="41" endcolumn="59" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.exceptions" class="GlobalExceptionHandler" method="handleRegraNegocio" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'handleRegraNegocio(RegraNegocioException)' has a cyclomatic complexity of 1.
+</violation>
+<violation beginline="62" endline="62" begincolumn="41" endcolumn="68" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.exceptions" class="GlobalExceptionHandler" method="handleEntidadeNaoEncontrada" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'handleEntidadeNaoEncontrada(EntidadeNaoEncontradaException)' has a cyclomatic complexity of 1.
+</violation>
+<violation beginline="69" endline="69" begincolumn="41" endcolumn="67" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.exceptions" class="GlobalExceptionHandler" method="handleCredenciaisInvalidas" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'handleCredenciaisInvalidas(CredenciaisInvalidasException)' has a cyclomatic complexity of 1.
+</violation>
+<violation beginline="76" endline="76" begincolumn="5" endcolumn="11" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.exceptions" class="ErroResponse" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The record 'ErroResponse' has a total cyclomatic complexity of 1 (highest 1).
+</violation>
+<violation beginline="77" endline="77" begincolumn="16" endcolumn="28" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.exceptions" class="ErroResponse" method="ErroResponse" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The constructor 'ErroResponse(Integer, String)' has a cyclomatic complexity of 1.
+</violation>
+<violation beginline="82" endline="82" begincolumn="5" endcolumn="11" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.exceptions" class="ErroValidacaoResponse" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The record 'ErroValidacaoResponse' has a total cyclomatic complexity of 1 (highest 1).
+</violation>
+<violation beginline="83" endline="83" begincolumn="16" endcolumn="37" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.exceptions" class="ErroValidacaoResponse" method="ErroValidacaoResponse" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The constructor 'ErroValidacaoResponse(Integer, String, Map&lt;String, String&gt;)' has a cyclomatic complexity of 1.
+</violation>
+</file>
+<file name="C:\Users\hnrqb\OneDrive\Desktop\Tcc-Estruturado\src\main\java\br\com\bassi\tccestruturado\exceptions\RegraNegocioException.java">
+<violation beginline="3" endline="3" begincolumn="8" endcolumn="13" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.exceptions" class="RegraNegocioException" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The class 'RegraNegocioException' has a total cyclomatic complexity of 1 (highest 1).
+</violation>
+<violation beginline="4" endline="4" begincolumn="12" endcolumn="33" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.exceptions" class="RegraNegocioException" method="RegraNegocioException" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The constructor 'RegraNegocioException(String)' has a cyclomatic complexity of 1.
+</violation>
+</file>
+<file name="C:\Users\hnrqb\OneDrive\Desktop\Tcc-Estruturado\src\main\java\br\com\bassi\tccestruturado\exceptions\TituloJaCadastradoException.java">
+<violation beginline="3" endline="3" begincolumn="8" endcolumn="13" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.exceptions" class="TituloJaCadastradoException" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The class 'TituloJaCadastradoException' has a total cyclomatic complexity of 1 (highest 1).
+</violation>
+<violation beginline="4" endline="4" begincolumn="12" endcolumn="39" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.exceptions" class="TituloJaCadastradoException" method="TituloJaCadastradoException" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The constructor 'TituloJaCadastradoException(String)' has a cyclomatic complexity of 1.
+</violation>
+</file>
+<file name="C:\Users\hnrqb\OneDrive\Desktop\Tcc-Estruturado\src\main\java\br\com\bassi\tccestruturado\infra\JwtAuthFilter.java">
+<violation beginline="20" endline="20" begincolumn="8" endcolumn="13" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.infra" class="JwtAuthFilter" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The class 'JwtAuthFilter' has a total cyclomatic complexity of 10 (highest 10).
+</violation>
+<violation beginline="26" endline="26" begincolumn="20" endcolumn="36" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.infra" class="JwtAuthFilter" method="doFilterInternal" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'doFilterInternal(HttpServletRequest, HttpServletResponse, FilterChain)' has a cyclomatic complexity of 10.
+</violation>
+</file>
+<file name="C:\Users\hnrqb\OneDrive\Desktop\Tcc-Estruturado\src\main\java\br\com\bassi\tccestruturado\infra\JwtUtil.java">
+<violation beginline="14" endline="14" begincolumn="12" endcolumn="17" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.infra" class="JwtUtil" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The class 'JwtUtil' has a total cyclomatic complexity of 6 (highest 2).
+</violation>
+<violation beginline="21" endline="21" begincolumn="23" endcolumn="33" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.infra" class="JwtUtil" method="gerarToken" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'gerarToken(String)' has a cyclomatic complexity of 1.
+</violation>
+<violation beginline="30" endline="30" begincolumn="23" endcolumn="33" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.infra" class="JwtUtil" method="gerarToken" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'gerarToken(String, String)' has a cyclomatic complexity of 1.
+</violation>
+<violation beginline="39" endline="39" begincolumn="23" endcolumn="35" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.infra" class="JwtUtil" method="validarToken" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'validarToken(String)' has a cyclomatic complexity of 2.
+</violation>
+<violation beginline="53" endline="53" begincolumn="23" endcolumn="32" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.infra" class="JwtUtil" method="obterRole" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'obterRole(String)' has a cyclomatic complexity of 2.
+</violation>
+</file>
+<file name="C:\Users\hnrqb\OneDrive\Desktop\Tcc-Estruturado\src\main\java\br\com\bassi\tccestruturado\infra\SecurityConfig.java">
+<violation beginline="20" endline="20" begincolumn="8" endcolumn="13" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.infra" class="SecurityConfig" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The class 'SecurityConfig' has a total cyclomatic complexity of 3 (highest 1).
+</violation>
+<violation beginline="25" endline="25" begincolumn="32" endcolumn="51" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.infra" class="SecurityConfig" method="securityFilterChain" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'securityFilterChain(HttpSecurity)' has a cyclomatic complexity of 1.
+</violation>
+<violation beginline="47" endline="47" begincolumn="28" endcolumn="43" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.infra" class="SecurityConfig" method="passwordEncoder" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'passwordEncoder()' has a cyclomatic complexity of 1.
+</violation>
+<violation beginline="52" endline="52" begincolumn="34" endcolumn="55" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.infra" class="SecurityConfig" method="authenticationManager" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'authenticationManager(AuthenticationConfiguration)' has a cyclomatic complexity of 1.
+</violation>
+</file>
+<file name="C:\Users\hnrqb\OneDrive\Desktop\Tcc-Estruturado\src\main\java\br\com\bassi\tccestruturado\infra\ValidacaoException.java">
+<violation beginline="3" endline="3" begincolumn="8" endcolumn="13" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.infra" class="ValidacaoException" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The class 'ValidacaoException' has a total cyclomatic complexity of 1 (highest 1).
+</violation>
+<violation beginline="4" endline="4" begincolumn="12" endcolumn="30" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.infra" class="ValidacaoException" method="ValidacaoException" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The constructor 'ValidacaoException(String)' has a cyclomatic complexity of 1.
+</violation>
+</file>
+<file name="C:\Users\hnrqb\OneDrive\Desktop\Tcc-Estruturado\src\main\java\br\com\bassi\tccestruturado\repositories\EventoRepository.java">
+<violation beginline="9" endline="9" begincolumn="22" endcolumn="34" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.repositories" class="EventoRepository" method="findByTitulo" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'findByTitulo(String)' has a cyclomatic complexity of 1.
+</violation>
+<violation beginline="10" endline="10" begincolumn="13" endcolumn="27" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.repositories" class="EventoRepository" method="existsByTitulo" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'existsByTitulo(String)' has a cyclomatic complexity of 1.
+</violation>
+</file>
+<file name="C:\Users\hnrqb\OneDrive\Desktop\Tcc-Estruturado\src\main\java\br\com\bassi\tccestruturado\repositories\LocalRepository.java">
+<violation beginline="7" endline="7" begincolumn="13" endcolumn="25" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.repositories" class="LocalRepository" method="existsByNome" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'existsByNome(String)' has a cyclomatic complexity of 1.
+</violation>
+</file>
+<file name="C:\Users\hnrqb\OneDrive\Desktop\Tcc-Estruturado\src\main\java\br\com\bassi\tccestruturado\repositories\ParticipacaoEventoRepository.java">
+<violation beginline="10" endline="10" begincolumn="9" endcolumn="24" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.repositories" class="ParticipacaoEventoRepository" method="countByEventoId" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'countByEventoId(Evento)' has a cyclomatic complexity of 1.
+</violation>
+<violation beginline="11" endline="11" begincolumn="30" endcolumn="44" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.repositories" class="ParticipacaoEventoRepository" method="findByEventoId" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'findByEventoId(Evento)' has a cyclomatic complexity of 1.
+</violation>
+<violation beginline="13" endline="13" begincolumn="30" endcolumn="45" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.repositories" class="ParticipacaoEventoRepository" method="findByUsuarioId" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'findByUsuarioId(Usuario)' has a cyclomatic complexity of 1.
+</violation>
+</file>
+<file name="C:\Users\hnrqb\OneDrive\Desktop\Tcc-Estruturado\src\main\java\br\com\bassi\tccestruturado\repositories\UsuarioRepository.java">
+<violation beginline="13" endline="13" begincolumn="23" endcolumn="34" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.repositories" class="UsuarioRepository" method="findByEmail" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'findByEmail(String)' has a cyclomatic complexity of 1.
+</violation>
+<violation beginline="14" endline="14" begincolumn="23" endcolumn="32" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.repositories" class="UsuarioRepository" method="findByCpf" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'findByCpf(String)' has a cyclomatic complexity of 1.
+</violation>
+<violation beginline="15" endline="15" begincolumn="19" endcolumn="30" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.repositories" class="UsuarioRepository" method="findByCargo" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'findByCargo(EnumCargos)' has a cyclomatic complexity of 1.
+</violation>
+<violation beginline="16" endline="16" begincolumn="19" endcolumn="33" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.repositories" class="UsuarioRepository" method="findByCargoNot" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'findByCargoNot(EnumCargos)' has a cyclomatic complexity of 1.
+</violation>
+<violation beginline="17" endline="17" begincolumn="13" endcolumn="26" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.repositories" class="UsuarioRepository" method="existsByEmail" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'existsByEmail(String)' has a cyclomatic complexity of 1.
+</violation>
+<violation beginline="19" endline="19" begincolumn="13" endcolumn="24" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.repositories" class="UsuarioRepository" method="existsByCpf" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'existsByCpf(String)' has a cyclomatic complexity of 1.
+</violation>
+<violation beginline="21" endline="21" begincolumn="13" endcolumn="34" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.repositories" class="UsuarioRepository" method="existsByEmailAndIdNot" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'existsByEmailAndIdNot(String, Long)' has a cyclomatic complexity of 1.
+</violation>
+<violation beginline="22" endline="22" begincolumn="13" endcolumn="32" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.repositories" class="UsuarioRepository" method="existsByCpfAndIdNot" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'existsByCpfAndIdNot(String, Long)' has a cyclomatic complexity of 1.
+</violation>
+</file>
+<file name="C:\Users\hnrqb\OneDrive\Desktop\Tcc-Estruturado\src\main\java\br\com\bassi\tccestruturado\service\AuthService.java">
+<violation beginline="13" endline="13" begincolumn="8" endcolumn="13" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.service" class="AuthService" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The class 'AuthService' has a total cyclomatic complexity of 3 (highest 3).
+</violation>
+<violation beginline="19" endline="19" begincolumn="19" endcolumn="29" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.service" class="AuthService" method="autenticar" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'autenticar(String, String)' has a cyclomatic complexity of 3.
+</violation>
+</file>
+<file name="C:\Users\hnrqb\OneDrive\Desktop\Tcc-Estruturado\src\main\java\br\com\bassi\tccestruturado\service\CepService.java">
+<violation beginline="11" endline="11" begincolumn="8" endcolumn="13" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.service" class="CepService" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The class 'CepService' has a total cyclomatic complexity of 1 (highest 1).
+</violation>
+<violation beginline="14" endline="14" begincolumn="30" endcolumn="42" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.service" class="CepService" method="buscarPorCep" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'buscarPorCep(String)' has a cyclomatic complexity of 1.
+</violation>
+</file>
+<file name="C:\Users\hnrqb\OneDrive\Desktop\Tcc-Estruturado\src\main\java\br\com\bassi\tccestruturado\service\EventoService.java">
+<violation beginline="26" endline="26" begincolumn="8" endcolumn="13" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.service" class="EventoService" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The class 'EventoService' has a total cyclomatic complexity of 25 (highest 11).
+</violation>
+<violation beginline="32" endline="32" begincolumn="22" endcolumn="33" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.service" class="EventoService" method="criarEvento" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'criarEvento(EventoDTO)' has a cyclomatic complexity of 1.
+</violation>
+<violation beginline="38" endline="38" begincolumn="17" endcolumn="30" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.service" class="EventoService" method="deletarEvento" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'deletarEvento(Long)' has a cyclomatic complexity of 1.
+</violation>
+<violation beginline="42" endline="42" begincolumn="40" endcolumn="52" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.service" class="EventoService" method="buscarEvento" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'buscarEvento(Long)' has a cyclomatic complexity of 1.
+</violation>
+<violation beginline="48" endline="48" begincolumn="36" endcolumn="49" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.service" class="EventoService" method="listarEventos" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'listarEventos()' has a cyclomatic complexity of 1.
+</violation>
+<violation beginline="56" endline="56" begincolumn="22" endcolumn="34" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.service" class="EventoService" method="editarEvento" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'editarEvento(Long, EventoDTO)' has a cyclomatic complexity of 1.
+</violation>
+<violation beginline="105" endline="105" begincolumn="20" endcolumn="35" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.service" class="EventoService" method="construirEvento" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'construirEvento(EventoDTO)' has a cyclomatic complexity of 11.
+</violation>
+<violation beginline="153" endline="153" begincolumn="20" endcolumn="47" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.service" class="EventoService" method="atualizarEstadoSeNecessario" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'atualizarEstadoSeNecessario(Evento)' has a cyclomatic complexity of 3.
+</violation>
+<violation beginline="162" endline="162" begincolumn="23" endcolumn="34" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.service" class="EventoService" method="toEventoDTO" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'toEventoDTO(Evento)' has a cyclomatic complexity of 3.
+</violation>
+<violation beginline="175" endline="175" begincolumn="31" endcolumn="50" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.service" class="EventoService" method="toEventoResponseDTO" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'toEventoResponseDTO(Evento)' has a cyclomatic complexity of 3.
+</violation>
+</file>
+<file name="C:\Users\hnrqb\OneDrive\Desktop\Tcc-Estruturado\src\main\java\br\com\bassi\tccestruturado\service\FuncionarioService.java">
+<violation beginline="19" endline="19" begincolumn="8" endcolumn="13" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.service" class="FuncionarioService" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The class 'FuncionarioService' has a total cyclomatic complexity of 17 (highest 7).
+</violation>
+<violation beginline="24" endline="24" begincolumn="27" endcolumn="47" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.service" class="FuncionarioService" method="cadastrarFuncionario" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'cadastrarFuncionario(FuncionarioDTO)' has a cyclomatic complexity of 5.
+</violation>
+<violation beginline="38" endline="38" begincolumn="27" endcolumn="44" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.service" class="FuncionarioService" method="editarFuncionario" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'editarFuncionario(Long, FuncionarioDTO)' has a cyclomatic complexity of 7.
+</violation>
+<violation beginline="62" endline="62" begincolumn="41" endcolumn="64" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.service" class="FuncionarioService" method="listarTodosFuncionarios" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'listarTodosFuncionarios()' has a cyclomatic complexity of 1.
+</violation>
+<violation beginline="69" endline="69" begincolumn="41" endcolumn="55" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.service" class="FuncionarioService" method="listarPorCargo" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'listarPorCargo(EnumCargos)' has a cyclomatic complexity of 1.
+</violation>
+<violation beginline="75" endline="75" begincolumn="17" endcolumn="35" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.service" class="FuncionarioService" method="excluirFuncionario" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'excluirFuncionario(Long)' has a cyclomatic complexity of 1.
+</violation>
+<violation beginline="82" endline="82" begincolumn="21" endcolumn="29" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.service" class="FuncionarioService" method="toEntity" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'toEntity(FuncionarioDTO)' has a cyclomatic complexity of 1.
+</violation>
+<violation beginline="93" endline="93" begincolumn="36" endcolumn="49" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.service" class="FuncionarioService" method="toResponseDTO" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'toResponseDTO(Usuario)' has a cyclomatic complexity of 1.
+</violation>
+</file>
+<file name="C:\Users\hnrqb\OneDrive\Desktop\Tcc-Estruturado\src\main\java\br\com\bassi\tccestruturado\service\LocalService.java">
+<violation beginline="22" endline="22" begincolumn="8" endcolumn="13" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.service" class="LocalService" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The class 'LocalService' has a total cyclomatic complexity of 15 (highest 4).
+</violation>
+<violation beginline="27" endline="27" begincolumn="21" endcolumn="31" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.service" class="LocalService" method="criarLocal" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'criarLocal(LocalDTO)' has a cyclomatic complexity of 3.
+</violation>
+<violation beginline="43" endline="43" begincolumn="17" endcolumn="29" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.service" class="LocalService" method="deletarLocal" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'deletarLocal(Long)' has a cyclomatic complexity of 3.
+</violation>
+<violation beginline="50" endline="50" begincolumn="39" endcolumn="50" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.service" class="LocalService" method="buscarLocal" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'buscarLocal(Long)' has a cyclomatic complexity of 1.
+</violation>
+<violation beginline="55" endline="55" begincolumn="35" endcolumn="47" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.service" class="LocalService" method="listarLocais" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'listarLocais()' has a cyclomatic complexity of 1.
+</violation>
+<violation beginline="62" endline="62" begincolumn="21" endcolumn="32" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.service" class="LocalService" method="editarLocal" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'editarLocal(Long, LocalDTO)' has a cyclomatic complexity of 1.
+</violation>
+<violation beginline="83" endline="83" begincolumn="22" endcolumn="49" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.service" class="LocalService" method="construirEnderecoCompletado" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'construirEnderecoCompletado(EnderecoDTO)' has a cyclomatic complexity of 4.
+</violation>
+<violation beginline="103" endline="103" begincolumn="22" endcolumn="32" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.service" class="LocalService" method="toLocalDTO" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'toLocalDTO(Local)' has a cyclomatic complexity of 1.
+</violation>
+<violation beginline="115" endline="115" begincolumn="30" endcolumn="48" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.service" class="LocalService" method="toLocalResponseDTO" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'toLocalResponseDTO(Local)' has a cyclomatic complexity of 1.
+</violation>
+</file>
+<file name="C:\Users\hnrqb\OneDrive\Desktop\Tcc-Estruturado\src\main\java\br\com\bassi\tccestruturado\service\MyUserDetailsService.java">
+<violation beginline="16" endline="16" begincolumn="8" endcolumn="13" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.service" class="MyUserDetailsService" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The class 'MyUserDetailsService' has a total cyclomatic complexity of 1 (highest 1).
+</violation>
+<violation beginline="21" endline="21" begincolumn="24" endcolumn="42" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.service" class="MyUserDetailsService" method="loadUserByUsername" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'loadUserByUsername(String)' has a cyclomatic complexity of 1.
+</violation>
+</file>
+<file name="C:\Users\hnrqb\OneDrive\Desktop\Tcc-Estruturado\src\main\java\br\com\bassi\tccestruturado\service\ParticipacaoEventoService.java">
+<violation beginline="24" endline="24" begincolumn="8" endcolumn="13" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.service" class="ParticipacaoEventoService" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The class 'ParticipacaoEventoService' has a total cyclomatic complexity of 13 (highest 11).
+</violation>
+<violation beginline="30" endline="30" begincolumn="17" endcolumn="38" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.service" class="ParticipacaoEventoService" method="adicionarParticipante" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'adicionarParticipante(ParticipacaoEventoDTO)' has a cyclomatic complexity of 11.
+</violation>
+<violation beginline="76" endline="76" begincolumn="25" endcolumn="53" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.service" class="ParticipacaoEventoService" method="listarEventosDoUsuarioLogado" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'listarEventosDoUsuarioLogado()' has a cyclomatic complexity of 1.
+</violation>
+<violation beginline="88" endline="88" begincolumn="33" endcolumn="56" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.service" class="ParticipacaoEventoService" method="listarUsuariosPorEvento" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'listarUsuariosPorEvento(Long)' has a cyclomatic complexity of 1.
+</violation>
+</file>
+<file name="C:\Users\hnrqb\OneDrive\Desktop\Tcc-Estruturado\src\main\java\br\com\bassi\tccestruturado\service\UsuarioService.java">
+<violation beginline="19" endline="19" begincolumn="8" endcolumn="13" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.service" class="UsuarioService" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The class 'UsuarioService' has a total cyclomatic complexity of 16 (highest 7).
+</violation>
+<violation beginline="24" endline="24" begincolumn="23" endcolumn="39" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.service" class="UsuarioService" method="cadastrarUsuario" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'cadastrarUsuario(UsuarioDTO)' has a cyclomatic complexity of 5.
+</violation>
+<violation beginline="39" endline="39" begincolumn="23" endcolumn="36" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.service" class="UsuarioService" method="editarUsuario" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'editarUsuario(Long, UsuarioDTO)' has a cyclomatic complexity of 7.
+</violation>
+<violation beginline="62" endline="62" begincolumn="37" endcolumn="48" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.service" class="UsuarioService" method="listarTodos" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'listarTodos()' has a cyclomatic complexity of 1.
+</violation>
+<violation beginline="69" endline="69" begincolumn="17" endcolumn="31" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.service" class="UsuarioService" method="excluirUsuario" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'excluirUsuario(Long)' has a cyclomatic complexity of 1.
+</violation>
+<violation beginline="73" endline="73" begincolumn="21" endcolumn="29" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.service" class="UsuarioService" method="toEntity" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'toEntity(UsuarioDTO)' has a cyclomatic complexity of 1.
+</violation>
+<violation beginline="82" endline="82" begincolumn="32" endcolumn="45" rule="CyclomaticComplexity" ruleset="Design" package="br.com.bassi.tccestruturado.service" class="UsuarioService" method="toResponseDTO" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.17.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'toResponseDTO(Usuario)' has a cyclomatic complexity of 1.
+</violation>
+</file>
+</pmd>
